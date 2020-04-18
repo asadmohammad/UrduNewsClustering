@@ -32,13 +32,7 @@ stop_words = frozenset("""
  ہوا ہوتا ہوتی ہوتیں ہوتے ہونا ہونگے ہونی ہونے ہوں ہی ہیں ہے یا یات یعنی یہ یہاں یہی یہیں
 """.split())
 
-"Read Data From File"
-def readFile():
-    st = '۔۔۔تُو بھاگ گیا'
-    f = open( st +".doc", encoding="utf8")
-    st = f.read()
-    print(st)
-    return st
+
 
 "Word Split"
 def splitWords(headlines):
